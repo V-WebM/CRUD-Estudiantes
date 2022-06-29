@@ -1,0 +1,29 @@
+<div class="card" style="padding: 10px;">
+<form action="/api/student" method="POST" id="add_student">
+    <div class="new_student">
+    
+        <div class="form-group">
+            <label for="name" class="text-ligth">Nombre</label>
+            <input class="form-control" type="hidden" name="id" value="">
+            <input class="form-control" type="text" name="name" value="" placeholder="Ingrese Nombre">
+        </div>
+        <div class="form-group">
+            <label for="surname" class="text-ligth">Apellido</label>
+            <input class="form-control" type="text" name="surname" value="" placeholder="Ingrese Apellido">
+        </div>
+        <div class="form-group">
+            <label for="Course" class="text-ligth">Curso</label>
+            <input class="form-control" type="text" name="course" value="" placeholder="Ingrese Curso">
+        </div>
+        <div class="form-group">
+            <label for="Record" class="text-ligth">Nota</label>
+            <input class="form-control" type="number" name="record" value="" placeholder="Ingrese Nota">
+        </div>
+        <br>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Guardar</button>
+        </div>
+        
+    </div>
+</form>
+</div>
